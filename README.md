@@ -1,10 +1,11 @@
-# BDDfire in the Docker
+# Ruby-Cucumber Framework in the Docker
 
-BDDfire [https://github.com/Shashikant86/bddfire] is a rubygem which install Ruby-Cucumber framework with lots of handy tools.
+BDDfire [https://github.com/Shashikant86/bddfire] is a instant Ruby Cucumber Framework with lots of Cucumber friendly libraries. These libraries include Capybara, Rspec, Poltergeist, Cuke_sniffer, Rubocop, Yard etc etc
+
 
 Now we have docker version of BDDfire on Docker Hub
 
-docker-bddfire[https://registry.hub.docker.com/u/shashikant86/docker-bddfire/]
+bddfire-cucumber-appium[https://registry.hub.docker.com/u/shashikant86/bddfire-cucumber-appium/]
 
 
 # Usage
@@ -15,10 +16,4 @@ docker-bddfire[https://registry.hub.docker.com/u/shashikant86/docker-bddfire/]
 
 ##Pull the docker image
 
-          $ docker pull shashikant86/docker-bddfire
-
-##run docker image
-
-          $ docker run -i -t shashikant86/docker-bddfire
-
-                    
+          $ docker pull shashikant86/bddfire-cucumber-appium
